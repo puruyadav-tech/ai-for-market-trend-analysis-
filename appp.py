@@ -31,7 +31,7 @@ except ImportError:
     st.warning("⚠️ yfinance not installed. Only Alpha Vantage will be used.")
 
 # Alpha Vantage Configuration
-ALPHA_VANTAGE_API_KEY = st.secrets.get("ALPHA_VANTAGE_API_KEY", "RSMSPEMM4AQHT6QL")  # Use environment variable in production
+ALPHA_VANTAGE_API_KEY = st.secrets.get("ALPHA_VANTAGE_API_KEY", "RV4CZ54LIN34ZOP0")  # Use environment variable in production
 AV_BASE_URL = 'https://www.alphavantage.co/query'
 
 # Page configuration
